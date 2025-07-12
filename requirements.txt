@@ -1,0 +1,8 @@
+phidata>=0.2.0
+langchain>=0.2.0
+langchain-google-genai>=0.1.0   # Gemini wrapper
+google-generativeai>=0.4.0       # official SDK (indirect)
+python-dotenv>=1.0.1
+requests>=2.32.0                 # used by web search tool
+wikipedia>=1.4.0
+judgeval>=0.0.51                # tracing + evals

@@ -1,0 +1,25 @@
+# --- Python -------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# --- Virtual-env / tooling ----------------------------------
+.venv/
+.env                    # local secrets (GEMINI_API_KEY, etc.)
+.env.*                  # any variants like .env.local
+pip-wheel-metadata/
+
+# --- Judgeval ----------------------------------------------
+traces/                 # JSON traces saved by Tracer
+
+# --- IDEs / Editors ----------------------------------------
+.vscode/
+.idea/
+.DS_Store               # macOS finder cruft
+Thumbs.db               # Windows
+
+# --- Logs / misc -------------------------------------------
+*.log
